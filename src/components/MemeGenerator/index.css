@@ -1,0 +1,192 @@
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #fff;
+  padding: 10px;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 60%;
+  }
+}
+
+.card-top-headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-top-headline hr {
+  width: 30%;
+  height: 1px;
+  color: pink;
+  background-color: red;
+}
+
+.bundle-title {
+  color: #cd264f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-50-off-container {
+  border-radius: 3.615px;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.card-50-off-container:hover {
+  border-radius: 3.615px;
+  border: 0.904px solid #f88ca7;
+  background: #fff4f7;
+}
+
+.card-50-oof-first-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.first-container-price-details {
+  margin: 0px 10px;
+  flex-grow: 1;
+}
+
+.first-container-price-details p {
+  margin: 0px;
+}
+
+.one-pair-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.DKK-rate {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-rate-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.disscount-offer-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.size-color-container {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.size-color-container > div {
+  width: 50%;
+  margin: 10px;
+}
+.size-color-container > div > select {
+  width: 100%;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+  height: 20px;
+  margin-top: 5px;
+}
+.size-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-bottom-section {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+.free-two-day-shiping-text {
+  color: #cd264f;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.total-amount-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.total-span-text {
+  font-weight: 700;
+}
+
+.add-to-cart-button {
+  border-radius: 4px 4px 4px 0px;
+  background: #cd264f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Powered-by-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  text-align: right;
+}
